@@ -1,0 +1,79 @@
+.bg-light{
+	background-color: #3B5998!important;
+   }
+  body{
+  	background-color:#D3D8E8;
+}
+ .navbar-light .navbar-brand{
+ 	color: #fff;
+ 	font-weight: bold;
+ 	font-size:40px;
+ 	margin-left:80px;
+ } 
+ #x1{
+ 	font-weight: bold;
+  height: 30px;
+ 	font-size: 25px;
+ }
+ #x2{
+ 	font-size:20px;
+ 	margin-top:5px;
+ }
+ #md1 img{
+ 	border: 0;
+ }
+ #md1{
+ 	margin: 100px 30px 20px 50px;
+ 	width: 700px;
+ 	height: 350px;
+ }
+  .l2{
+  	margin-right: 10px;
+  }
+  #lb{
+  	margin-right:5px;
+  	color: #fff;
+  }
+
+   .fore{
+   	width:320px;
+   	
+     margin-right:100px;
+    margin-left: 200px;
+     margin-top:50px; 
+   	padding-bottom: 30px;
+    padding-top: 30px;
+   	padding-right: 50px;
+   	padding-left: 30px;
+   	background-color:transparent;
+   }
+  
+   .fore form{
+   	margin-left: 20px;
+   }
+ /*  #dv{*/
+    /*  background-color: #fff;
+      padding-right: 50px;
+      padding-left: 50px;
+   }*/
+   #bl1{
+   	margin-top:20px;
+   	font-weight: bold;
+   	font-size: 20px;
+   }
+  #bl1{
+  	width:150px;
+  	height: 50px;
+  }
+  .btn1{
+     
+     border-radius:5px; 
+  }
+  #staticEmail2{
+    height:30px;
+    border-radius: 2px;
+  }
+  #inputPassword2{
+    height:30px;
+    border-radius:2px;
+  }

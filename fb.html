@@ -1,0 +1,81 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Facebook-log in or sign up</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Chat online with your friends">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
+	  <link rel="shortcut icon" type="image/x-icon" href="fb.ico" />
+	    <link  href="fb.css" rel="stylesheet" type="text/css">
+	    <script type="text/javascript" src="fb.js"></script>
+	</head>
+	<body>
+	   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">facebook</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav ml-auto">
+	   <form class="form-inline">
+	  <div class="form-group mx-sm-3  mb-2">
+	   <label id="lb">Email</label>
+	    <input type="email" class="form-control" id="staticEmail2" required>
+	  </div>
+	  <div class="form-group mx-sm-3 mb-2">
+	  	<label id="lb">Password</label>
+	    <input type="password" class="form-control" id="inputPassword2" required>
+	  </div>
+	  <button type="submit" class="btn1" onclick="logdisplay()">Login</button>
+	</form>
+	 </ul>
+	  </div>
+	</nav>
+	<div class="row">
+		<div class="col-6 col-md-6 col-sm-6" >
+		<img src="fbco.jpg" id="md1">
+	    </div>
+	<div class="col-md-6 col-sm-6" id="dv">
+	  <div class="fore">
+	  	<p id="x1">Create an account</p>
+	      <p id="x2">It's free and always will be.</p>
+	   <form id="dv1">
+	  <div class="form-group">
+	  <div class="form-row">
+	    <div class="col">
+	      <input type="text" class="form-control" placeholder="First name" required>
+	    </div>
+	    <div class="col">
+	      <input type="text" class="form-control" placeholder="Last name" required>
+	    </div>
+	  </div>
+	     <div class="form-group">
+	    <br>
+	    <input type="Number" class="form-control" placeholder="Mobile Number" required>
+	  </div>
+	    <label for="exampleInputEmail1" class="l2">Email address</label><br>
+	    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleInputPassword1" class="l2">Password</label>
+	    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+	  </div>
+	 
+	    <input type="checkbox"  id="exampleCheck1">
+	    <label class="form-check-label" for="exampleCheck1">Male</label>
+	     
+	     <input type="checkbox"  id="exampleCheck2">
+	     <label class="form-check-label" for="exampleCheck2">Female</label>
+	    <br>
+	  <button type="submit" class="btn btn-success" id="bl1" onclick="display()">Sign Up</button>
+	</form>
+	</div>
+	</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	</body>
+	</html>
